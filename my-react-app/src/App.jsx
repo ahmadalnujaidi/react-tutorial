@@ -89,6 +89,13 @@
 //   return <UpdaterFunction></UpdaterFunction>;
 // }
 
+//----------UPDATE OBJECTS in state
+// import UpdateObjectState from "./UpdateObjectState";
+
+// function App() {
+//   return <UpdateObjectState></UpdateObjectState>;
+// }
+
 function App() {
   return;
 }
