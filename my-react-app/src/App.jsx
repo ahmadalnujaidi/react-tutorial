@@ -63,5 +63,33 @@
 //   return <Counter></Counter>;
 // }
 
-function App() {}
+//----------onChange = event handler used primarily with form elements
+// ex. <input>, <textarea>, <select>, <radio>
+// triggers a function everytime the value of the input changes
+// import OnChange from "./OnChange";
+
+// function App() {
+//   return <OnChange></OnChange>;
+// }
+
+//----------COLORPICKER
+// import ColorPicker from "./ColorPicker";
+
+// function App() {
+//   return <ColorPicker></ColorPicker>;
+// }
+
+//----------UPDATER FUNCTION = a function passed as an argument to setState() usually
+// ex. setYear(year +1) / better to pass updater function as argument: arrow function
+// Allow for safe updates based on the previous state
+// used with multiple state updates and asynchronous functions
+// good practice to use updater functions
+// import UpdaterFunction from "./UpdaterFunction";
+// function App() {
+//   return <UpdaterFunction></UpdaterFunction>;
+// }
+
+function App() {
+  return;
+}
 export default App;
