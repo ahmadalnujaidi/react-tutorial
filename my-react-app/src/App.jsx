@@ -96,7 +96,23 @@
 //   return <UpdateObjectState></UpdateObjectState>;
 // }
 
+//----------UPDATE ARRAYS IN STATE
+// import UpdateArrays from "./UpdateArrays";
+// function App() {
+//   return (
+//     <>
+//       <UpdateArrays></UpdateArrays>
+//     </>
+//   );
+// }
+
+//----------UPDATE ARRAY OF OBJECTS IN STATE
+import UpdateArrayObjects from "./UpdateArrayObjects";
 function App() {
-  return;
+  return (
+    <>
+      <UpdateArrayObjects></UpdateArrayObjects>
+    </>
+  );
 }
 export default App;
