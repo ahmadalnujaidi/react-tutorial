@@ -107,12 +107,16 @@
 // }
 
 //----------UPDATE ARRAY OF OBJECTS IN STATE
-import UpdateArrayObjects from "./UpdateArrayObjects";
+// import UpdateArrayObjects from "./UpdateArrayObjects";
+// function App() {
+//   return (
+//     <>
+//       <UpdateArrayObjects></UpdateArrayObjects>
+//     </>
+//   );
+// }
+
 function App() {
-  return (
-    <>
-      <UpdateArrayObjects></UpdateArrayObjects>
-    </>
-  );
+  return;
 }
 export default App;
