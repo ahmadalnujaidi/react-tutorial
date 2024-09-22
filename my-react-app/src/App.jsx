@@ -204,7 +204,17 @@
 //   );
 // }
 
+//----------STOPWATCH app
+import Stopwatch from "./Stopwatch";
 function App() {
-  return;
+  return (
+    <>
+      <Stopwatch></Stopwatch>
+      <Stopwatch></Stopwatch>
+      <Stopwatch></Stopwatch>
+    </>
+  );
 }
 export default App;
+
+// CONGRATS YOU FINISHED
